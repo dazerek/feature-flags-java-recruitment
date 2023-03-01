@@ -2,6 +2,13 @@
 
 We’d like you to create a feature flag service using Spring in Java. 
 
+## Here are the requirements for this service:
+
+* As an admin user, I want to be able to create a feature which defaults to disabled
+* As an admin user, I want to be able to switch on a feature for a user
+* As a user, I want to be able to get all the enabled features (a mix of all the globally enabled ones and the ones
+  enabled just for my user)
+  
 ### Some notes:
 
 This is deliberately open ended - you can focus this service on backend clients or mobile clients, include security or
